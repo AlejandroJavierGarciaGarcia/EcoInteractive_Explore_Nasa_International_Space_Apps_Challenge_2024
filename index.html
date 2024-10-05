@@ -1,61 +1,710 @@
+
+  <!-- =======================================================
+  * Referencia by
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  
+  <!-- =======================================================
+  * EcoInteractive_Explore_Nasa_International_Space_Apps_Challenge_2024
+  * Modifications by Alejandro García & Gerardo Umul
+  ======================================================== -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Basic Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        footer {
-            text-align: center;
-            padding: 1em;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>EcoInteractive Explore</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/EcoINteractiveIcon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
+<body class="index-page">
 
-    <section>
-        <h1>Hello, World!</h1>
-        <p>This is a simple page to test GitHub Pages. You can modify this content and style as you like!</p>
-    </section>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <footer>
-        <p>My Basic Page &copy; 2024</p>
-    </footer>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/EcoINteractiveIcon.png" alt="EcoInteractive Explore Logo" style="max-width:auto; height: auto;">
+
+        <h1 class="sitename">EcoInteractive Explore</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"> <i style="margin-right: 5px;" class="bi bi-house-check"> </i> Home</a></li>
+          <li><a href="#about"> <i style="margin-right: 5px;" class="bi bi-app-indicator"></i> About</a></li>
+          <li><a href="#services"><i style="margin-right: 5px;" class="bi bi-joystick"></i> Games</a></li>
+          <li><a href="#team"><i style="margin-right: 5px;" class="bi bi-file-earmark-person"></i> Team</a></li>
+          <li><a href="blog.html"><i style="margin-right: 5px;" class="bi bi-caret-right-square"></i> Blog Globe Program</a></li>
+
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Through exploration and learning, we are the change the earth needs<span></span></h2>
+            <p class="animate__animated animate__fadeInUp">By connecting science to action, we empower people to make informed decisions that contribute to global sustainability.
+
+            </p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto"> READY TO LEARN</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Skill Development</h2>
+            <p class="animate__animated animate__fadeInUp">Participating in the GLOBE Program helps you develop practical skills in science and technology, promoting hands-on learning that extends beyond the classroom.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Boost Your Research</h2>
+            <p class="animate__animated animate__fadeInUp">Experience fun and engaging ways to apply GLOBE Program protocols, collect data, and discover how your actions impact the planet.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">
+            </a>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>EcoInteractive experience</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+                Welcome to EcoInteractive Hub, a platform dedicated to bringing you closer to the fascinating world of science and the environment in an interactive and entertaining way. Here you will find educational games that will allow you to explore the GLOBE Program protocols, learn about our planet and discover how your actions can make a difference.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span> Continuous learning for the benefit of the environment. </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span> Innovation and commitment to promoting the GLOBE Protocol.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>  Improvement of the Earth's environment on a local, regional and global scale.        </span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Our mission is to inspire and empower people of all ages to become agents of change, promoting environmental awareness and fostering a sustainable future for all. </p>
+            <a href="https://www.globe.gov/support/faqs/protocols" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+         <!-- Section Title -->
+         <div class="container section-title" data-aos="fade-up">
+          <h2>GLOBE spheres</h2>
+          <p>Earth system science study areas</p>
+        </div><!-- End Section Title -->
+
+    <!-- Features Section -->
+    <section id="features" style="margin-top: -3rem;" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <i class="bi bi-cloud-haze"></i>
+              <h4 class="d-none d-lg-block">Atmosphere</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <i class="bi bi-globe-americas"></i>
+              <h4 class="d-none d-lg-block">Biosphere</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <i class="bi bi-droplet-half"></i>
+              <h4 class="d-none d-lg-block">Hydrosphere</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <i class="bi bi-tree"></i>
+              <h4 class="d-none d-lg-block">Pedosphere (Soil)              </h4>
+            </a>
+          </li>
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>They want to understand and predict</h3>
+                <p class="fst-italic" style="text-align: justify;">
+                  This includes weather, which encompasses air temperature, precipitation (such as rain and snow), relative humidity, cloud conditions, atmospheric pressure, and the dynamics of storms. Additionally, they are studying climate, defined by the average and extreme atmospheric conditions over time. They also focus on the energy budget, which involves land-atmosphere interactions, and examine atmospheric composition, including trace gases and particles present in the air that affect air quality and environmental health.
+
+                </p>
+                <ul class="two-columns-flex">
+                  <li>  <i class="bi bi-check2-all"></i> <span>Aerosols</span>.</li>
+                  <li>   <i class="bi bi-check2-all"></i> <span>Air Temperature</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Relative Humidity</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Barometric Pressure</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Aerosols</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Water Vapor</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Clouds</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Wind</span>.</li>
+                </ul>
+                <p>
+                  ​​​​​​​Each of these characteristics of the atmosphere affects us and our environment. What we wear and what we can do outside today depend on weather. Is it raining? Snowing? Sunny? Cold?
+
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/SphereA.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3> Earth’s surface is two-thirds water. </h3>
+                <p>
+                  The continents on which we live make up the remainder. Until the launch of the first humans into space, we did not fully appreciate the beauty and diversity of our planet. We rely on Earth’s surface (and a little bit above and below) to supply most of what we need to live. Therefore, mapping and monitoring this surface is critical to our wise use and protection of it. The Biosphere Investigation deals with the mapping and monitoring of both the surface and phenological indicators.
+                </p>
+                <ul class="two-columns-flex">
+                  <li>  <i class="bi bi-check2-all"></i> <span>Biometry</span>.</li>
+                  <li>   <i class="bi bi-check2-all"></i> <span>Carbon Cycle</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Green Up/Down                  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Land Cover Classification                  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Phenological Gardens</span>.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/SphereB.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Understanding Our Waters Through GLOBE Hydrosphere Research</h3>
+                <p>
+                  Through the GLOBE Hydrosphere investigation, you can help answer crucial questions by monitoring the waters near your school. Our understanding of global trends in water measurements is based on sampling from very few sites, often conducted only a handful of times. For instance, our information about many lakes relies on sampling performed just once or twice more than ten years ago.
+                </p>
+                <ul class="two-columns-flex">
+                  <li>  <i class="bi bi-check2-all"></i> <span>Alkalinity</span>.</li>
+                  <li>   <i class="bi bi-check2-all"></i> <span>Conductivity</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Dissolved Oxygen  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Freshwater Macroinvertebrates                </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Nitrates</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Water Temperature  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Water Transparency    </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Water pH</span>.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/SphereW.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>​​​​​​Soils are one of Earth’s essential natural resources, yet they are often taken for granted. </h3>
+                <p>
+                  Most people do not realize that soils are a living, breathing world supporting nearly all terrestrial life. Soils and the functions they play within an ecosystem vary greatly from one location to another as a result of many factors, including differences in climate, the animal and plant life living on them, the soil’s parent material, the position of the soil on the landscape, and the age of the soil.
+                </p>
+
+                <ul class="two-columns-flex">
+                  <li>  <i class="bi bi-check2-all"></i> <span>Bulk Density      </span>.</li>
+                  <li>   <i class="bi bi-check2-all"></i> <span>Frost Tube</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Soil Characterization  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Soil Fertility        </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Soil Infiltration</span>.</li>
+                  <li>  <i class="bi bi-check2-all"></i> <span>Soil Moisture - Gravimetric  </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Soil Particle Density   </span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Soil pH</span>.</li>
+                </ul>
+                <p class="fst-italic">
+                  Using the dat​​​​​​​a collected in the GLOBE Soil (Pedosphere) Investigation, students help scientists describe soils and understand how they function. 
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/SphereP.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>GLOBE has created over <span style="color:#ff9244;">100 protocols</span>  and learning activities relating to these four GLOBE Spheres.</h3>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://www.globe.gov/do-globe/globe-protocols">Teacher's Guide</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>What we do offer</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Nesciunt Mete</h3>
+              </a>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Eosle Commodi</h3>
+              </a>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-text" style="color: #20c997;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Ledo Markt</h3>
+              </a>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Asperiores Commodit</h3>
+              </a>
+              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-globe" style="color: #6610f2;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Velit Doloremque</h3>
+              </a>
+              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-clock" style="color: #f3268c;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Dolori Architecto</h3>
+              </a>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>THE GLOBE PROGRAM</h2>
+        <p>Frequently Asked Questions</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="custom-accordion" id="accordion-faq">
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
+                    What is The GLOBE Program?
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    GLOBE is a global science and education initiative that connects a network of students, teachers, and scientists to enhance the understanding and sustainability of Earth's environment. By engaging students in hands-on Earth system science, GLOBE fosters excitement for scientific discovery at local, regional, and global levels. To date, over 150 million measurements have been contributed to the GLOBE database, resulting in meaningful, standardized, research-quality datasets that support both student and professional scientific research.
+                  </div>
+                </div>
+              </div>
+
+              <!-- .accordion-item -->
+
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2">
+                    What does the acronym GLOBE stand for?
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    Global Learning and Observations to Benefit the Environment.
+                </div>
+                </div>
+              </div>
+
+
+            <!-- .accordion-item -->
+
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                    Who can participate in The GLOBE Program?
+                </button>
+              </h2>
+
+              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
+                <div class="accordion-body">
+                    GLOBE welcomes participation from individuals in partner countries. Teachers are equipped to guide students in data collection, and scientists collaborate with educators to enhance research. Organizations can assist in recruiting and training teachers.
+
+                    <br> GLOBE operates through agreements with the U.S. Government. For details on joining, contact the GLOBE Community Support Team at globehelp@ucar.edu.
+                </div>
+              </div>
+            </div>
+            <!-- .accordion-item -->
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Our Hardworking Team</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row ">
+      
+          <div class="col-lg-2 col-md-3 d-flex " data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/AJGG.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Alejandro García</h4>
+                <span>Guatemala</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+          <div class="col-lg-2 col-md-3 d-flex " data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img  src="https://images-assets.nasa.gov/image/iss043e010521/iss043e010521~orig.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Gerardo Umul</h4>
+                <span>Guatemala</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+          <div class="col-lg-2 col-md-3 d-flex " data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="/assets/img/Gerardo.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Gerardo Umul</h4>
+                <span>Guatemala</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      
+        </div>
+      </div>
+      
+    </section><!-- /Team Section -->
+
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Posts</h2>
+        <p>Recent Blog Posts<br></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Politics</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Maria Doe</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Sports</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Entertainment</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Mark Dower</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section><!-- /Recent Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">EcoInteractive Explore</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="container">
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Copyright Selecao All Rights Reserved - Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
