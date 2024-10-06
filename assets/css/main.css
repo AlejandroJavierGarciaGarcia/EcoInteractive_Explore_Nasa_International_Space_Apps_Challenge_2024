@@ -1491,9 +1491,6 @@ section,
   background-image: 
       linear-gradient(rgba(255, 255, 255, 0.696), rgba(255, 255, 255, 0.773), rgba(255, 255, 255, 0.663)), /* Change colors and opacity as needed */
       url("../img/bgTeam.jpg");
-  background-size: cover; /* Ensures the background image covers the entire area */
-  background-position: center; /* Centers the background image */
-  height: 100vh; /* Adjust the height as needed */
 }
 
 
