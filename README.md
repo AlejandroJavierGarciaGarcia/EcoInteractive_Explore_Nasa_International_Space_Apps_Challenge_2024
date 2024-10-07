@@ -32,3 +32,9 @@ This project aims to provide users, especially children and young people, with a
 ## Video Presentation
 
 - **Watch the Presentation:** https://youtu.be/YFayCjuDrjA
+
+![1](https://github.com/user-attachments/assets/282ddf54-907d-4187-a458-b1be16b77285)
+
+![2](https://github.com/user-attachments/assets/2d3186ec-fddb-4cdc-aaa5-a14666447a63)
+
+![3](https://github.com/user-attachments/assets/55e334bf-0cdf-4763-8763-d9d130bf4492)
