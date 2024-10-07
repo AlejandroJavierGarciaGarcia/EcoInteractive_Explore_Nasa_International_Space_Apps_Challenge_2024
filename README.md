@@ -61,3 +61,7 @@ This project is highly scalable and has the potential to help young people disco
 ![3](https://github.com/user-attachments/assets/55e334bf-0cdf-4763-8763-d9d130bf4492)
 
 ![2](https://github.com/user-attachments/assets/2d3186ec-fddb-4cdc-aaa5-a14666447a63)
+
+![WebSide1](https://github.com/user-attachments/assets/131c8e42-4d33-495f-8010-8af81d59d212)
+
+![WebSide2](https://github.com/user-attachments/assets/e2b4c63f-dacd-47f7-af9e-cb7e4ff8e4c6)
